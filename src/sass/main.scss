@@ -184,6 +184,7 @@ section {
 
 	&__text {
 		font-size: 1.4rem;
+		line-height: 2.5rem;
 	}
 }
 
@@ -430,7 +431,6 @@ footer {
 	}
 
 	.nav {
-		position: relative;
 		padding: 0 4rem;
 
 		&__mobile {
@@ -439,7 +439,9 @@ footer {
 
 		&__list {
 			top: 0;
+			right: 2rem;
 			flex-direction: row;
+			justify-content: center;
 			width: 50%;
 			height: 100%;
 			background: transparent;
@@ -466,7 +468,6 @@ footer {
 
 		&__text {
 			font-size: 1.4rem;
-			line-height: 2rem;
 		}
 	}
 
