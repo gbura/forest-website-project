@@ -149,6 +149,8 @@ section {
 		.form-box {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			gap: 2rem;
 			width: 100%;
 
@@ -170,6 +172,7 @@ section {
 
 			input,
 			textarea {
+				width: 100%;
 				padding: 2rem 1rem;
 				border-radius: 8px;
 				border: 1px solid gray;
@@ -217,6 +220,40 @@ section {
 					}
 				}
 			}
+		}
+
+		.popup {
+			display: none;
+			width: 60%;
+			padding: 2rem 1rem;
+			border-radius: 8px;
+			color: white;
+		}
+
+		.success {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: green;
+			animation: showPopup 1s;
+		}
+
+		.clear {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: gray;
+			animation: showPopup 1s;
+		}
+	}
+
+	@keyframes showPopup {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
 		}
 	}
 
