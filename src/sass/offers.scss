@@ -266,7 +266,6 @@ section {
 		justify-content: center;
 		text-align: center;
 		gap: 3rem;
-		
 
 		.rate {
 			color: #fff;
@@ -374,7 +373,6 @@ footer {
 	}
 
 	.nav {
-		position: relative;
 		padding: 0 4rem;
 
 		&__mobile {
@@ -382,10 +380,10 @@ footer {
 		}
 
 		&__list {
-			justify-content: end;
+			justify-content: center;
 			gap: 1rem;
 			top: 0;
-			right: 0;
+			right: 2rem;
 			flex-direction: row;
 			width: 50%;
 			height: 100%;
@@ -402,11 +400,10 @@ footer {
 
 	.hero-img {
 		.hero-text {
-
 			&__name {
 				font-size: 2rem;
 			}
-			
+
 			&__header {
 				font-size: 3.2rem;
 			}
