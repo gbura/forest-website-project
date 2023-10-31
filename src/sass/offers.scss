@@ -264,14 +264,15 @@ section {
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
-		gap: 4rem;
+		gap: 3rem;
+		
 
 		.rate {
 			color: #fff;
 			font-size: 2rem;
 
 			&__icon {
-				font-size: 3rem;
+				font-size: 2rem;
 				margin-bottom: 1rem;
 			}
 		}
@@ -395,6 +396,19 @@ footer {
 
 		&__item {
 			padding: 0;
+		}
+	}
+
+	.hero-img {
+		.hero-text {
+
+			&__name {
+				font-size: 2rem;
+			}
+			
+			&__header {
+				font-size: 3.2rem;
+			}
 		}
 	}
 
