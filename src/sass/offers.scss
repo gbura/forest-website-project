@@ -167,6 +167,7 @@ section {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
+		flex-wrap: wrap;
 		gap: 4rem;
 		margin-bottom: 2rem;
 
@@ -176,7 +177,8 @@ section {
 			justify-content: center;
 			align-items: center;
 			gap: 1rem;
-			width: 70%;
+			width: 80%;
+			height: 320px;
 			padding: 3rem 0;
 			border-radius: 8px;
 			box-shadow: 0 0 5px rgba(0, 0, 0, 0.726);
@@ -226,15 +228,11 @@ section {
 				background: transparent;
 				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.726);
 				cursor: pointer;
-				transition: transform 0.3s ease-in;
-
-				&.default {
-					background-color: rgb(42, 222, 114);
-				}
+				transition: transform 0.3s ease-in, background-color .3s ease-in;
 
 				&:hover,
 				&:focus {
-					background-color: rgb(36, 175, 92);
+					background-color: rgb(42, 222, 114);
 					transform: scale(1.1);
 				}
 			}
@@ -413,11 +411,11 @@ footer {
 		.variants {
 			justify-content: space-around;
 			flex-direction: row;
-			flex-wrap: nowrap;
+			flex-wrap: wrap;
 			padding: 0 4rem;
 
 			&__variant {
-				width: 100%;
+				width: 30%;
 			}
 		}
 	}
