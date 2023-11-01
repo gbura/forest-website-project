@@ -263,11 +263,10 @@ section {
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
-		gap: 3rem;
+		gap: 2rem;
 
 		.rate {
 			color: #fff;
-			font-size: 2rem;
 
 			&__icon {
 				font-size: 2rem;
@@ -352,6 +351,16 @@ footer {
 }
 
 @media (min-width: 576px) {
+	.rates {
+		&__hero-text {
+			gap: 3rem;
+
+			.rate {
+				font-size: 2rem;
+			}
+		}
+	}
+
 	.footer-content {
 		.right-section {
 			flex-direction: row;
@@ -454,10 +463,10 @@ footer {
 
 			.rate {
 				color: #fff;
-				font-size: 2.4rem;
+				font-size: 2.2rem;
 
 				&__icon {
-					font-size: 4rem;
+					font-size: 3rem;
 				}
 			}
 		}
